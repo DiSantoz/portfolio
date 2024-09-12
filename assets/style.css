@@ -2,7 +2,23 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* resume button */
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   background-color: #7fa1c3;
+}
+
+/* photo of me */
+.ferreira {
+  border-radius: 50%;
+}
+
+.github {
+  text-decoration: none;
+}
+
+.github:hover {
+  background-color: #7fa1c3;
+  color: white;
+  border-radius: 0.5rem;
 }
