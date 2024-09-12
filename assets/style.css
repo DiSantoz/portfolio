@@ -23,10 +23,34 @@ body {
   border-radius: 0.5rem;
 }
 
+/* Project 1 styling */
 .guess-number:hover {
   background-image: url(./images/guess.png);
 }
 
-.guess-my-number {
-  background-color: #7fa1c3;
+.link-light:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+  transform-origin: 50% 50%;
+}
+
+.link-warning:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+  transform-origin: 50% 50%;
+}
+
+.link-info:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+  transform-origin: 50% 50%;
+}
+
+/* project 2 styling */
+.source-me:hover {
+  background-image: url(./images/sourceme.png);
+}
+
+.taskmate:hover {
+  background-image: url(./images/taskmate.png);
 }
