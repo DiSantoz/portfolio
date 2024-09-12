@@ -51,6 +51,11 @@ body {
   background-image: url(./images/sourceme.png);
 }
 
+/* project 3 styling */
 .taskmate:hover {
   background-image: url(./images/taskmate.png);
+}
+
+#about {
+  background-color: #7fa1c3;
 }
