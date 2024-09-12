@@ -22,3 +22,11 @@ body {
   color: white;
   border-radius: 0.5rem;
 }
+
+.guess-number:hover {
+  background-image: url(./images/guess.png);
+}
+
+.guess-my-number {
+  background-color: #7fa1c3;
+}
