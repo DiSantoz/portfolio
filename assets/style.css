@@ -1,15 +1,22 @@
+:root {
+  --primary-color: #0a192f;
+  --secondary-color: #a8b2d1;
+  --blue-slate: #7fa1c3;
+  --accent-color: #64ffda;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #0a192f;
+  background-color: var(--primary-color);
 }
 
 /* Typing */
 .typewriter h1 {
   display: inline-block;
-  color: #a8b2d1;
+  color: var(--secondary-color);
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid #64ffda; /* The typwriter cursor */
+  border-right: 0.15em solid var(--accent-color); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
@@ -33,24 +40,24 @@ body {
     border-color: transparent;
   }
   50% {
-    border-color: #64ffda;
+    border-color: var(--accent-color);
   }
 }
 
 /* About */
 #about {
-  background-color: #0a192f;
-  color: #a8b2d1;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 /* header */
 header {
-  color: #7fa1c3;
+  color: var(--blue-slate);
 }
 
 /* nav list color */
 .nav-link {
-  color: #64ffda;
+  color: var(--accent-color);
 }
 
 .nav-link:hover {
@@ -60,7 +67,7 @@ header {
 /* resume button */
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  background-color: #7fa1c3;
+  background-color: var(--blue-slate);
 }
 
 /* photo of me */
@@ -70,24 +77,28 @@ header {
 
 .connect {
   text-decoration: none;
-  background-color: #7fa1c3;
+  background-color: var(--blue-slate);
 }
 
 .connect:hover {
-  background-color: #7fa1c3;
+  background-color: var(--blue-slate);
   color: white;
   border-radius: 0.5rem;
 }
 
 /* SKILLS */
 #skill-title {
-  color: #64ffda;
+  color: var(--accent-color);
 }
 
 .skills {
-  color: #a8b2d1;
+  color: var(--secondary-color);
   text-align: center;
   font-size: 1.5rem;
+}
+
+.tech-stack {
+  text-align: center;
 }
 
 .tech-stack li {
@@ -100,21 +111,21 @@ header {
 .skill-icon {
   width: 50px;
   height: 50px;
-  color: #a8b2d1;
+  color: var(--secondary-color);
 }
 
 /* **********PROJECTS*************** */
 
 #project-title {
-  color: #64ffda;
+  color: var(--accent-color);
 }
 
 .project-card {
-  background-color: #7fa1c3;
+  background-color: var(--blue-slate);
 }
 
 .project-icons {
-  color: #0a192f;
+  color: var(--primary-color);
 }
 
 /* Project 1 styling */
@@ -123,5 +134,5 @@ header {
   transform: scale(1.2);
   transition: all 1s;
   transform-origin: 50% 50%;
-  color: #64ffda;
+  color: var(--accent-color);
 }
