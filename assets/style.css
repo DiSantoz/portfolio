@@ -20,7 +20,7 @@ body {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
-  animation: typing 5s steps(100, end), blink-caret 1.5s linear infinite;
+  animation: typing 3.5s steps(100, end), blink-caret 1.5s linear infinite;
 }
 
 /* The typing effect */
@@ -135,4 +135,10 @@ header {
   transition: all 1s;
   transform-origin: 50% 50%;
   color: var(--accent-color);
+}
+
+@media screen and (max-device-width: 900px) {
+  .typewriter h1 {
+    animation: typing 1.5s steps(100, end), blink-caret 1.5s linear infinite;
+  }
 }
