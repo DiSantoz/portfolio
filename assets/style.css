@@ -5,7 +5,7 @@
   --blue-slate: #7fa1c3;
   --accent-color: #64ffda;
 }
-
+/* Body */
 body {
   font-family: "Montserrat", sans-serif;
   background-color: var(--primary-color);
